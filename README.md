@@ -13,7 +13,7 @@ Template for starting a containerized **Django** app with **Postgres** running o
 ### Quickstart:
     docker-compose build
     docker-compose up -d
-Your App should be up and runnig on http://localhost:8000/
+#### Your App should be up and runnig on http://localhost:8000/ 😀
 ![app](https://raw.githubusercontent.com/dedarritchon/Django-Bootstrap/main/app.png)
 # Useful Commands
 ## Create superuser (Django Admin)

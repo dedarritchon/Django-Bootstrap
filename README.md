@@ -1,1 +1,1 @@
-# django-bootstrap
+# Django-Bootstrap

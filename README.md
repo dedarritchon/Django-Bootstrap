@@ -56,3 +56,9 @@ Bootstrap4 was added by following [this](https://blog.nubecolectiva.com/como-int
 
 [Bootstrap 4 Docs](https://getbootstrap.com/docs/4.0/components)
 
+## Contributing
+- Fork and clone this repo
+- Make a new branch
+- Make necessary changes and commit those changes
+- Push changes to GitHub
+- Submit your changes for review (Pull Request)

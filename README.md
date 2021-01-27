@@ -1,11 +1,19 @@
 # Django-Bootstrap
 
-Template for starting a containerized Django app running on docker-compose
+Template for starting a containerized Django app with Postgres running on docker-compose, Also adding Gunicorn (a production-grade WSGI server), and Nginx (to act as a reverse proxy for Gunicorn to handle client requests as well as serve up static files) for production environments.
+
+### Dependencies:
+- Django==3.0.7
+- gunicorn==20.0.4
+- psycopg2-binary==2.8.5
+- django-bootstrap4
+
 
 # Useful Commands
 ## Create superuser (Django Admin)
     docker-compose exec web python manage.py createsuperuser
-  
+
+with this user you'll be able to login to the Django /admin page  
 ## Dev. Deployment
     docker-compose down -v
     docker-compose build

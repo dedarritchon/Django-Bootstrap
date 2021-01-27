@@ -5,11 +5,12 @@ from django.conf.urls.static import static
 from django.conf.urls import url
 
 from upload.views import image_upload
-from main.views import welcome, login, logout, about, pricing
+from main.views import welcome, register, login, logout, about, pricing
 
 
 urlpatterns = [
     url(r'^$', welcome, name='welcome'),
+    url(r'^register/?$', register, name='register'),
     url(r'^login/?$', login, name='login'),
     url(r'^logout/?$', logout, name='logout'),
     url(r'^about/?$', about, name='about'),

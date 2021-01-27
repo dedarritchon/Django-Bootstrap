@@ -1,0 +1,26 @@
+{% extends 'bases/main.html' %}
+
+{% block content %}
+
+    {% include "modals/login.html" %}
+
+    <div class="signup-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <h1 class="display-4">Sign up</h1>
+    </div>
+    <br>
+    &nbsp;
+    <div class="wip px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <h4>Work in progress</h4>
+    </div>
+    &nbsp;
+    <form class="form-register" method="post">
+        <br>
+        {% csrf_token %}
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+    </form>
+    &nbsp;
+    <div class="sign-up px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <span>Already have an account? <a href="/login">Log in</a></span>
+    </div>
+
+{% endblock %}

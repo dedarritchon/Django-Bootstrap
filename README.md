@@ -23,9 +23,10 @@ Template for starting a containerized **Django** app with **Postgres** running o
 
 with this user you'll be able to login to the Django /admin page  
 ## Dev. Deployment
-    docker-compose down -v
     docker-compose build
     docker-compose up -d
+    docker-compose down
+    docker-compose down -v (also removes the volumes along with the containers)
 
 ## DB Related
 ### Flush

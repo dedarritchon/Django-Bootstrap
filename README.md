@@ -35,7 +35,10 @@ Template for starting a containerized Django app running on docker-compose
       
 # Useful Links
 This Template was based on [this](https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/) guide
+
 Custom SystemUser was created using [this](https://testdriven.io/blog/django-custom-user-model/) guide
+
 Bootstrap4 was added by following [this](https://blog.nubecolectiva.com/como-integrar-django-y-bootstrap-4/) guide
+
 [Bootstrap 4 Docs](https://getbootstrap.com/docs/4.0/components)
 

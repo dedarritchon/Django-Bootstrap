@@ -16,7 +16,7 @@ Template for starting a containerized **Django** app with **Postgres** running o
     docker-compose exec web python manage.py makemigrations
     docker-compose exec web python manage.py migrate
 #### Your App should be up and runnig on http://localhost:8000/ 😀
-![app](https://raw.githubusercontent.com/dedarritchon/Django-Bootstrap/main/app.png)
+![app](https://raw.githubusercontent.com/dedarritchon/Django-Bootstrap/0c14a67d70ebffba2998cd31e5dd6c9e7ed9a857/app.png)
 # Useful Commands
 ## Create superuser (Django Admin)
     docker-compose exec web python manage.py createsuperuser

@@ -1,6 +1,6 @@
 # Django-Bootstrap
 
-Template for starting a containerized Django app with Postgres running on docker-compose, Also adding Gunicorn (a production-grade WSGI server), and Nginx (to act as a reverse proxy for Gunicorn to handle client requests as well as serve up static files) for production environments.
+Template for starting a containerized **Django** app with **Postgres** running on **docker-compose**, Also adding **Gunicorn** (_a production-grade WSGI server_), and **Nginx** (_reverse proxy for Gunicorn to handle client requests as well as serve up static files_) into the mix for production environments.
 
 ### Dependencies:
 - Django==3.0.7

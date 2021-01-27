@@ -3,6 +3,8 @@
 Template for starting a containerized **Django** app with **Postgres** running on **docker-compose**, Also adding **Gunicorn** (_a production-grade WSGI server_), and **Nginx** (_reverse proxy for Gunicorn to handle client requests as well as serve up static files_) into the mix for production environments.
 
 ### Dependencies:
+- Python 3.8.3
+- Postgres 12.0
 - Django==3.0.7
 - gunicorn==20.0.4
 - psycopg2-binary==2.8.5

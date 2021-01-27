@@ -5,9 +5,9 @@ Template for starting a containerized **Django** app with **Postgres** running o
 ### Dependencies:
 - Python 3.8.3
 - Postgres 12.0
-- Django==3.0.7
-- gunicorn==20.0.4
-- psycopg2-binary==2.8.5
+- Django 3.0.7
+- gunicorn 20.0.4
+- psycopg2-binary 2.8.5
 - django-bootstrap4
 
 ### Quickstart:

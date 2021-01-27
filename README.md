@@ -51,7 +51,7 @@ with this user you'll be able to login to the Django /admin page
         hello_django python /usr/src/app/manage.py runserver 0.0.0.0:8000
       
 # Useful Links
-This Template was based on [this](https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/) guide
+This Template was created using [this](https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/) guide
 
 Custom SystemUser was created using [this](https://testdriven.io/blog/django-custom-user-model/) guide
 

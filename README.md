@@ -2,7 +2,7 @@
 
 Template for starting a containerized Django app running on docker-compose
 
-# Useful commands
+# Useful Commands
 ## Create superuser (Django Admin)
     docker-compose exec web python manage.py createsuperuser
   
@@ -32,3 +32,10 @@ Template for starting a containerized Django app running on docker-compose
         -p 8006:8000 \
         -e "SECRET_KEY=please_change_me" -e "DEBUG=1" -e "DJANGO_ALLOWED_HOSTS=*" \
         hello_django python /usr/src/app/manage.py runserver 0.0.0.0:8000
+      
+# Useful Links
+This Template was based on [this](https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/) guide
+Custom SystemUser was created using [this](https://testdriven.io/blog/django-custom-user-model/) guide
+Bootstrap4 was added by following [this](https://blog.nubecolectiva.com/como-integrar-django-y-bootstrap-4/) guide
+[Bootstrap 4 Docs](https://getbootstrap.com/docs/4.0/components)
+

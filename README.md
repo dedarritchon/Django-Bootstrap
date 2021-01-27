@@ -1,4 +1,4 @@
-# Django-Bootstrap [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+# Django-Bootstrap [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 Template for starting a containerized **Django** app with **Postgres** running on **docker-compose**, Also adding **Gunicorn** (_a production-grade WSGI server_), and **Nginx** (_reverse proxy for Gunicorn to handle client requests as well as serve up static files_) into the mix for production environments.
 

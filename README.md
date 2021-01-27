@@ -54,6 +54,8 @@ Custom SystemUser was created using [this](https://testdriven.io/blog/django-cus
 
 Bootstrap4 was added by following [this](https://blog.nubecolectiva.com/como-integrar-django-y-bootstrap-4/) guide
 
+[Django Docs](https://docs.djangoproject.com/en/3.1/)
+
 [Bootstrap 4 Docs](https://getbootstrap.com/docs/4.0/components)
 
 ## Contributing

@@ -13,6 +13,8 @@ Template for starting a containerized **Django** app with **Postgres** running o
 ### Quickstart:
     docker-compose build
     docker-compose up -d
+    docker-compose exec web python manage.py makemigrations
+    docker-compose exec web python manage.py migrate
 #### Your App should be up and runnig on http://localhost:8000/ 😀
 ![app](https://raw.githubusercontent.com/dedarritchon/Django-Bootstrap/main/app.png)
 # Useful Commands

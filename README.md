@@ -8,7 +8,10 @@ Template for starting a containerized Django app with Postgres running on docker
 - psycopg2-binary==2.8.5
 - django-bootstrap4
 
-
+### Quickstart:
+    docker-compose build
+    docker-compose up -d
+Your App should be up and runnig on http://localhost:8000/
 # Useful Commands
 ## Create superuser (Django Admin)
     docker-compose exec web python manage.py createsuperuser
